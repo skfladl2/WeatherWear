@@ -12,7 +12,7 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity3화면 전환"
+        android:text="지역 검색"
         tools:latout_editor_absoluteX="147dp"
         tools:latout_editor_absoluteY="197dp"/>
     <Button
