@@ -1,18 +1,18 @@
-com/example/myapplication/MainActivity5.java
- com.example.myapplication.MainActivity5
- com.example.myapplication.MainActivity5$Data
+com/example/myapplication/MainActivity3.java
+ com.example.myapplication.MainActivity3
+ com.example.myapplication.MainActivity3$1
 com/example/myapplication/BuildConfig.java
  com.example.myapplication.BuildConfig
 com/example/myapplication/MainActivity.java
  com.example.myapplication.MainActivity
  com.example.myapplication.MainActivity$1
-com/example/myapplication/MainActivity3.java
- com.example.myapplication.MainActivity3
- com.example.myapplication.MainActivity3$1
 com/example/myapplication/MainActivity4.java
  com.example.myapplication.MainActivity4
  com.example.myapplication.MainActivity4$1
  com.example.myapplication.MainActivity4$DownloadIcon
  com.example.myapplication.MainActivity4$DownloadJSON
+com/example/myapplication/MainActivity5.java
+ com.example.myapplication.MainActivity5
+ com.example.myapplication.MainActivity5$Data
 com/example/myapplication/MainActivity2.java
  com.example.myapplication.MainActivity2
