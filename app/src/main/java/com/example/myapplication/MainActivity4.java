@@ -5,8 +5,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,6 +26,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.ExecutionException;
+import java.io.ByteArrayOutputStream;
 
 public class MainActivity4 extends AppCompatActivity {
 
@@ -88,7 +92,7 @@ public class MainActivity4 extends AppCompatActivity {
         }
     }
 
-    TextView txtTime, txtFeelsLike, txtValueHumidity, txtPressure, txtWindSpeed, txtTemp, txtTempMINMAX;
+    TextView txtTime, txtFeelsLike, txtValueHumidity, txtPressure, txtWindSpeed, txtTemp, txtTempMINMAX,txtTemp1;
     ImageView imageView;
 
     @Override
@@ -113,6 +117,7 @@ public class MainActivity4 extends AppCompatActivity {
         txtTemp = findViewById(R.id.txtValue);
         txtTempMINMAX = findViewById(R.id.txtTempMINMAX);
         imageView = findViewById(R.id.imgIcon);
+        txtTemp1 =findViewById(R.id.temp1);
 
 
         DownloadJSON downloadJSON = new DownloadJSON();
@@ -139,6 +144,7 @@ public class MainActivity4 extends AppCompatActivity {
             txtWindSpeed.setText(windspeed + "m/s");
             txtValueHumidity.setText(humidity + "%");
             txtTemp.setText(temp + "°");
+            txtTemp1.setText(temp);
             txtTempMINMAX.setText("최저 : " + temp_min + "° " + "최고 : " + temp_max + "°");
 
             String nameIcon = "10d";
@@ -156,6 +162,25 @@ public class MainActivity4 extends AppCompatActivity {
             e.printStackTrace();
         }
 
+        String sTime =txtTime.getText().toString();
+        String temp = txtTemp1.getText().toString();
+        Button b = (Button) findViewById(R.id.button);
+        b.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(getApplicationContext(), MainActivity5.class);
+                intent1.putExtra("city",str);
+                intent1.putExtra("time",sTime);
+                intent1.putExtra("temp",temp);
+
+
+                startActivity(intent1);
+            }
+        });
+
+
     }
+
 
 }
