@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutionException;
 public class MainActivity4 extends AppCompatActivity {
 
 
-    private TextView tCity;
+    private TextView txtCity;
 
     public class DownloadJSON extends AsyncTask<String, Void, String> {
 
@@ -88,7 +88,7 @@ public class MainActivity4 extends AppCompatActivity {
         }
     }
 
-    TextView txtCity, txtTime, txtFeelsLike, txtValueHumidity, txtPressure, txtWindSpeed, txtTemp, txtTempMINMAX;
+    TextView txtTime, txtFeelsLike, txtValueHumidity, txtPressure, txtWindSpeed, txtTemp, txtTempMINMAX;
     ImageView imageView;
 
     @Override
@@ -96,13 +96,13 @@ public class MainActivity4 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
-        tCity = findViewById(R.id.txtCity);
+        txtCity = findViewById(R.id.txtCity);
 
         Intent intent = getIntent();
         String str = intent.getStringExtra("city");
         String strUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + str + "&appid=867d2553fb743f162631454d6ebde974&lang=kr";
 
-        tCity.setText(str);
+        txtCity.setText(str);
 
         txtCity = findViewById(R.id.txtCity);
         txtTime = findViewById(R.id.txtTime);
