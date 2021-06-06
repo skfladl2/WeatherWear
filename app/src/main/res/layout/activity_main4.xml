@@ -49,7 +49,7 @@
             android:layout_centerHorizontal="true"
             android:layout_marginStart="160dp"
             android:layout_marginBottom="0dp"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="최저 : "
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/imgfeelslike"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="체감온도"
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -104,7 +104,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txtTitlefeelslike"
             android:layout_alignLeft="@id/txtTitlefeelslike"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="7°C"
             android:textColor="@color/white"
             android:textSize="20dp" />
@@ -124,7 +124,7 @@
             android:layout_alignTop="@id/imgHumidity"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/imgHumidity"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="습도"
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -135,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txtTitleHumidity"
             android:layout_alignLeft="@id/txtTitleHumidity"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="7°C"
             android:textColor="@color/white"
             android:textSize="20dp" />
@@ -157,7 +157,7 @@
             android:layout_alignTop="@id/imgPressure"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/imgPressure"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="기압"
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -168,7 +168,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txtTitlePressure"
             android:layout_alignLeft="@id/txtTitlePressure"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="7°C"
             android:textColor="@color/white"
             android:textSize="20dp" />
@@ -190,7 +190,7 @@
             android:layout_alignTop="@id/imgWindSpeed"
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@id/imgWindSpeed"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="풍속"
             android:textColor="@color/white"
             android:textSize="18dp" />
@@ -201,7 +201,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@id/txtTitleWindSpeed"
             android:layout_alignLeft="@id/txtTitleWindSpeed"
-            android:fontFamily="@font/barunpen"
+            android:fontFamily="sans-serif-condensed-medium"
             android:text="7°C"
             android:textColor="@color/white"
             android:textSize="20dp" />
