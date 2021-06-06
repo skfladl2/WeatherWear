@@ -19,7 +19,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         Intent intent = getIntent();
         String str = intent.getStringExtra("city");
-        //String strUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + str + "&appid=867d2553fb743f162631454d6ebde974&lang=kr";
+        String strUrl = "http://api.openweathermap.org/data/2.5/weather?q=" + str + "&appid=867d2553fb743f162631454d6ebde974&lang=kr";
 
         tCity.setText(str);
     }
