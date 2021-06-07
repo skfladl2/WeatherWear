@@ -15,15 +15,6 @@
         android:text="지역 검색"
         tools:latout_editor_absoluteX="147dp"
         tools:latout_editor_absoluteY="197dp"/>
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="옷 추천"
-        tools:latout_editor_absoluteX="147dp"
-        tools:latout_editor_absoluteY="197dp"/>
-   
-
 
 
 </LinearLayout>
