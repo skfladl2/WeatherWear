@@ -36,7 +36,7 @@ public class MainActivity5 extends AppCompatActivity {
         setContentView(R.layout.activity_main5);
         Intent intent1 = getIntent();
         String str = intent1.getStringExtra("city");
-        String Time = intent1.getStringExtra("time");
+        String sTime = intent1.getStringExtra("time");
         Double temp = Double.parseDouble(intent1.getStringExtra("temp"));
 
 
@@ -53,7 +53,7 @@ public class MainActivity5 extends AppCompatActivity {
         clothes2text = findViewById(R.id.clothes2text);
 
         Data info = new Data();
-        info.time = Time;
+        info.time = sTime;
         info.location = str;
         info.temperature = temp;
 
