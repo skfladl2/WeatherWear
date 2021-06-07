@@ -12,7 +12,7 @@ import android.widget.Toast;
 public class MainActivity2 extends AppCompatActivity implements Button.OnClickListener{
 
     Button button1;
-    Button button2;
+    //Button button2;
    
 
     @Override
@@ -25,8 +25,8 @@ public class MainActivity2 extends AppCompatActivity implements Button.OnClickLi
 
         button1 = (Button)findViewById(R.id.button1);
         button1.setOnClickListener(this);
-        button2 = (Button)findViewById(R.id.button2);
-        button2.setOnClickListener(this);
+        //button2 = (Button)findViewById(R.id.button2);
+       // button2.setOnClickListener(this);
         
     }
 
@@ -40,7 +40,7 @@ public class MainActivity2 extends AppCompatActivity implements Button.OnClickLi
     public void onClick(View v) {
     switch (v.getId()) {
         case R.id.button1: Intent intent1 = new Intent(MainActivity2.this, MainActivity3.class);startActivity(intent1); break;
-        case R.id.button2: Intent intent2 = new Intent(MainActivity2.this, MainActivity6.class);startActivity(intent2); break;
+        //case R.id.button2: Intent intent2 = new Intent(MainActivity2.this, MainActivity6.class);startActivity(intent2); break;
         
     }
     }
