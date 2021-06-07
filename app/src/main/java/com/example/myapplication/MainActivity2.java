@@ -13,7 +13,7 @@ public class MainActivity2 extends AppCompatActivity implements Button.OnClickLi
 
     Button button1;
     Button button2;
-    Button button3;
+   
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,8 +27,7 @@ public class MainActivity2 extends AppCompatActivity implements Button.OnClickLi
         button1.setOnClickListener(this);
         button2 = (Button)findViewById(R.id.button2);
         button2.setOnClickListener(this);
-        button3 = (Button)findViewById(R.id.button3);
-        button3.setOnClickListener(this);
+        
     }
 
     @Override
@@ -41,8 +40,8 @@ public class MainActivity2 extends AppCompatActivity implements Button.OnClickLi
     public void onClick(View v) {
     switch (v.getId()) {
         case R.id.button1: Intent intent1 = new Intent(MainActivity2.this, MainActivity3.class);startActivity(intent1); break;
-        case R.id.button2: Intent intent2 = new Intent(MainActivity2.this, MainActivity4.class);startActivity(intent2); break;
-        case R.id.button3: Intent intent3 = new Intent(MainActivity2.this, MainActivity5.class);startActivity(intent3); break;
+        case R.id.button2: Intent intent2 = new Intent(MainActivity2.this, MainActivity6.class);startActivity(intent2); break;
+        
     }
     }
     @Override

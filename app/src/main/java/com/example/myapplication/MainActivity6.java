@@ -19,7 +19,7 @@ public class MainActivity6 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main6);
 
         ImageView = findViewById(R.id.image);
 
